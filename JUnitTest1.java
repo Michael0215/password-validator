@@ -5,7 +5,7 @@ import org.junit.Test;
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.Assert.assertTrue;
 
-public class JUnitTest1 {
+public class JUnitTest {
     private validator v = new validator();
 
     @Test
