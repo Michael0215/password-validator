@@ -23,6 +23,6 @@ public class validator {
         if(onlyUpperCase.matcher(password).find())
             return true;
         else
-            return false;
+            return true;
     }
 }
