@@ -32,7 +32,7 @@ public class JUnitTest {
         assertTrue(v.PWformat("12343567777"));
     }
     
-     @Test
+    @Test
     public void test6(){
         assertFalse(v.PWformat("pass"));
     }
