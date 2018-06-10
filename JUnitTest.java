@@ -31,4 +31,9 @@ public class JUnitTest {
     public void test5(){
         assertTrue(v.PWformat("12343567777"));
     }
+    
+     @Test
+    public void test6(){
+        assertFalse(v.PWformat("pass"));
+    }
 }
